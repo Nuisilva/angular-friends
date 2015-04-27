@@ -80,3 +80,15 @@ ul{
 .hashtag {
 	font-weight: bold
 }
+
+.animate-enter, .animate-leave {
+transition: 400ms ease-in all;
+position: relative;
+display: block;
+} 
+.animate-enter.animate-enter-active, .animate-leave {
+left: 0;
+}
+.animate-leave.animate-leave-active, .animate-enter {
+left: 500px;
+}
