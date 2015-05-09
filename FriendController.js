@@ -449,6 +449,19 @@ app.controller('friendCtrl', function($scope){
     }
 ];
 
+    $scope.options [{
+
+       lable: 'Name',
+       value: 'name'
+    },{
+        lable: 'City',
+        value: 'current_location.city'
+    },{
+        key: 'yet anotherValue'
+    }
+    }
+    }]
+
 console.log($scope.friend)
 
 
